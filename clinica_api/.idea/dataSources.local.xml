@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="joanfern_bdv1@localhost" uuid="6e49f876-e694-4578-8025-e29be34d25f6">
+      <database-info product="MySQL" version="5.5.5-10.1.35-MariaDB" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:joanfern_bdv1</introspection-schemas>
+    </data-source>
+    <data-source name="bd_clinicav2@localhost" uuid="c55f9259-6035-4df8-aa2b-6212add6cdb1">
+      <database-info product="PostgreSQL" version="9.3.14" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <introspection-schemas>bd_clinicav2:public</introspection-schemas>
+    </data-source>
+    <data-source name="bd_clinicav3@localhost" uuid="9b2a6fbb-02a8-4ff1-acd0-05b7e653a23e">
+      <database-info product="PostgreSQL" version="9.3.14" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <introspection-schemas>bd_clinicav3:public</introspection-schemas>
+    </data-source>
+  </component>
+</project>
